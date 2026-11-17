@@ -1,0 +1,41 @@
+.s75-native-popover .popup-menu-content { padding: 10px; border-radius: 20px; }
+.s75-content { width: 344px; spacing: 14px; padding: 4px; }
+.s75-heading { spacing: 10px; padding: 0 2px; }
+.s75-wordmark { font-size: 17px; font-weight: 800; color: #f0bc99; }
+.s75-device { font-size: 11px; color: #b8bbc2; }
+.s75-close { border-radius: 50%; color: #a8abb2; width: 24px; height: 24px; font-size: 18px; }
+.s75-close:hover { background-color: rgba(255,255,255,0.1); }
+.s75-tabs { background-color: rgba(0,0,0,0.23); border-radius: 11px; padding: 4px; spacing: 4px; }
+.s75-tab { padding: 7px 24px; border-radius: 8px; font-size: 12px; color: #a8abb5; }
+.s75-tab:checked { background-color: rgba(255,255,255,0.12); color: #ffffff; }
+.s75-tab:focus { box-shadow: inset 0 0 0 1px #e4b89b; }
+.s75-section { spacing: 12px; }
+.s75-gif-row { spacing: 12px; }
+.s75-lcd { width: 78px; height: 132px; padding: 7px; border-radius: 11px; background-color: rgba(0,0,0,0.25); color: #b6a294; }
+.s75-drop { spacing: 10px; width: 226px; padding: 17px 10px; border-radius: 12px; border: 1px dashed rgba(230,195,166,0.38); background-color: rgba(255,255,255,0.025); }
+.s75-drop:hover { border-color: #edbb96; background-color: rgba(230,180,140,0.12); }
+.s75-drop-title { font-size: 13px; font-weight: 600; }
+.s75-caption { font-size: 10px; color: #b0b3bc; }
+.s75-tiny { font-size: 8px; color: #9297a2; }
+.s75-file-button { padding: 6px 11px; border-radius: 7px; font-size: 10px; background-color: rgba(255,255,255,0.085); }
+.s75-file-button:hover { background-color: rgba(255,255,255,0.15); }
+.s75-filename { font-size: 9px; color: #a5aab5; max-width: 334px; }
+.s75-fit { spacing: 7px; }
+.s75-fit-button { font-size: 9px; color: #9fa4af; padding: 5px 10px; border-radius: 6px; }
+.s75-fit-button:checked { background-color: rgba(235,190,155,0.13); color: #e7c0a5; }
+.s75-palette { spacing: 13px; padding: 14px 0; }
+.s75-swatch { width: 30px; height: 30px; border-radius: 16px; border: 2px solid transparent; }
+.s75-swatch:checked, .s75-swatch:focus { border-color: #ffffff; box-shadow: 0 0 0 2px rgba(255,255,255,0.15); }
+.s75-swatch:insensitive { opacity: 0.45; }
+.s75-custom { spacing: 10px; }
+.s75-hex { width: 228px; padding: 7px 10px; border-radius: 8px; background-color: rgba(0,0,0,0.2); color: #eee9e5; font-size: 11px; }
+.s75-brightness-title { spacing: 12px; padding-top: 8px; }
+.s75-status { font-size: 10px; color: #b6bfc3; max-width: 334px; padding: 3px 0; }
+.s75-error { color: #f1aaa1; }
+.s75-progress { border-radius: 2px; background-color: #d6ac8b; }
+.s75-footer { border-top: 1px solid rgba(255,255,255,0.09); padding-top: 10px; }
+.s75-link { padding: 3px 0; font-size: 10px; color: #d5b49b; }
+.s75-link:hover { color: #ffffff; }
+.s75-muted { color: #9a9fab; }
+
+.s75-bar{spacing:5px}.s75-bar-battery{font-size:10px;color:#d4d5da}.s75-battery{padding:4px 6px;border-radius:7px;background-color:rgba(255,255,255,0.06)}.s75-battery:hover{background-color:rgba(255,255,255,0.12)}.s75-battery-box{spacing:5px}.s75-battery-text{font-size:10px;color:#d1d4da}.s75-battery-note{font-size:9px;color:#9ba3ae;max-width:334px}

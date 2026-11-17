@@ -1,0 +1,10 @@
+{
+  "uuid": "s75-studio@luisdev.local",
+  "name": "S75 Studio · Menu nativo",
+  "description": "Menu nativo com GIF, Cor e bateria do AULA S75 Pro por receptor 2,4 GHz ou Bluetooth.",
+  "shell-version": [
+    "49",
+    "50"
+  ],
+  "version": 3
+}

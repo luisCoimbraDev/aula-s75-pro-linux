@@ -1,0 +1,7 @@
+# Somente o AULA S75 Pro por USB. logind concede acesso ao usuário da sessão ativa.
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="0c45", ATTRS{idProduct}=="800a", ATTRS{product}=="AULA-S75Pro", TAG+="uaccess"
+# Leitura da bateria do receptor AULA: somente a interface proprietária MI_03.
+# Duas regras separam a identificação USB e a interface (ancestrais distintos).
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="0c45", ATTRS{idProduct}=="fefe", ENV{S75_BATTERY_RECEIVER}="1"
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="05ac", ATTRS{idProduct}=="024f", ENV{S75_BATTERY_RECEIVER}="1"
+SUBSYSTEM=="hidraw", ENV{S75_BATTERY_RECEIVER}=="1", KERNELS=="*:1.3", TAG+="uaccess"

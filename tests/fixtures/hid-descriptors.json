@@ -1,0 +1,44 @@
+{
+  "hid": [
+    {
+      "node": "/dev/hidraw2",
+      "node_visible": false,
+      "permissions": null,
+      "hid_id": "0003:00000C45:0000800A",
+      "name": "SONiX AULA-S75Pro",
+      "physical_path": "usb-0000:00:14.0-2/input0",
+      "driver": "hid-generic",
+      "report_descriptor_hex": "05010906a101050719e029e71500250175019508810295017508810195057501050819012905910295017503910195067508150026ff00050719002a65008100c0"
+    },
+    {
+      "node": "/dev/hidraw3",
+      "node_visible": false,
+      "permissions": null,
+      "hid_id": "0003:00000C45:0000800A",
+      "name": "SONiX AULA-S75Pro",
+      "physical_path": "usb-0000:00:14.0-2/input1",
+      "driver": "hid-generic",
+      "report_descriptor_hex": "050c0901a101850319002a3c031500263c03950175108100c005010980a101850205011981298315002501950375018102950175058101c005010906a101850105071500250119002977957875018102c005010902a10185060901a1000509190129031500250195057501810295017503810105010930093109381581257f750895038106c0c006ffff0901a10185050901150026ff00750895038102c0"
+    },
+    {
+      "node": "/dev/hidraw4",
+      "node_visible": false,
+      "permissions": null,
+      "hid_id": "0003:00000C45:0000800A",
+      "name": "SONiX AULA-S75Pro",
+      "physical_path": "usb-0000:00:14.0-2/input2",
+      "driver": "hid-generic",
+      "report_descriptor_hex": "0668ff0961a1010962150026ff009540750881020963150026ff0096001075089102c0"
+    },
+    {
+      "node": "/dev/hidraw5",
+      "node_visible": false,
+      "permissions": null,
+      "hid_id": "0003:00000C45:0000800A",
+      "name": "SONiX AULA-S75Pro",
+      "physical_path": "usb-0000:00:14.0-2/input3",
+      "driver": "hid-generic",
+      "report_descriptor_hex": "0613ff0901a101150026ff007508954009028102090391020a00ffb102c0"
+    }
+  ]
+}

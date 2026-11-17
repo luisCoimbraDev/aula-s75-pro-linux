@@ -1,0 +1,34 @@
+{
+  "LICENSE": {
+    "sha256": "e57f1c320b8cf8798a7d2ff83a6f9e06a33a03585f6e065fea97f1d86db84052",
+    "source": "https://github.com/livvaa/AulaToolkit/blob/main/LICENSE"
+  },
+  "tests/aula04.test.ts": {
+    "sha256": "e81d2efb8706f38852fcf95da0126199bffbdd2219fa92354e6e0a1b0256e016",
+    "source": "https://github.com/livvaa/AulaToolkit/blob/main/tests/aula04.test.ts"
+  },
+  "src/shared/keycodes.ts": {
+    "sha256": "c49e58b0fe8c5903df56335b057e6f4f40c668cc499ce66fb07712ed3433b9e4",
+    "source": "https://github.com/livvaa/AulaToolkit/blob/main/src/shared/keycodes.ts"
+  },
+  "src/shared/types.ts": {
+    "sha256": "8d911cfcdf80c3717f6c9139d5e68dcd801d19a9f83f7e72530f46286c4a5aa3",
+    "source": "https://github.com/livvaa/AulaToolkit/blob/main/src/shared/types.ts"
+  },
+  "src/shared/models/s75pro.ts": {
+    "sha256": "d1de35049d93f93a5751c6d2cf1e939e9253dc15d2d87339cd95e69bb1a7f885",
+    "source": "https://github.com/livvaa/AulaToolkit/blob/main/src/shared/models/s75pro.ts"
+  },
+  "src/shared/protocols/aula04.ts": {
+    "sha256": "1c3ef37e7ccd259056d634ec15797d89ecddda9735351acb213f3434977cb713",
+    "source": "https://github.com/livvaa/AulaToolkit/blob/main/src/shared/protocols/aula04.ts"
+  },
+  "src/main/hid/transport.ts": {
+    "sha256": "7524ad6cebea6b5bd074f5a6fa8435ddd3eb27b185b2e25c29542d6c7f34d6fb",
+    "source": "https://github.com/livvaa/AulaToolkit/blob/main/src/main/hid/transport.ts"
+  },
+  "src/main/hid/drivers/aula04Driver.ts": {
+    "sha256": "260090065fb5e47bacb0693a9b7aecafc4a82eebc45f944d71b9426575ce77e5",
+    "source": "https://github.com/livvaa/AulaToolkit/blob/main/src/main/hid/drivers/aula04Driver.ts"
+  }
+}

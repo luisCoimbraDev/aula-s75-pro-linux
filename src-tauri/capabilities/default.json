@@ -1,0 +1,11 @@
+{
+  "identifier": "main-capability",
+  "description": "Janelas principal e controle rápido do S75 Studio",
+  "windows": [
+    "main",
+    "quick"
+  ],
+  "permissions": [
+    "core:default"
+  ]
+}

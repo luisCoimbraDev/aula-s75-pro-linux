@@ -1,0 +1,63 @@
+{
+  "name": "s75-studio",
+  "version": "0.7.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 1420 --strictPort",
+    "build": "tsc --noEmit && vite build",
+    "tauri": "tauri",
+    "test": "node --test tests/*.test.mjs",
+    "test:rust": "cargo test --offline -p s75-core",
+    "check:rust": "cargo check --offline -p s75-studio",
+    "test:ui": "node scripts/test-ui.mjs",
+    "test:quick": "node --experimental-vm-modules scripts/check-quick-flow.mjs",
+    "test:native-menu": "node --experimental-vm-modules scripts/check-native-menu.mjs",
+    "test:render": "node scripts/check-react-pages.mjs",
+    "format:ui": "prettier --write src/studio.tsx src/quick.tsx src/ui src/pages src/style.css src/quick.css",
+    "check:secrets": "python3 scripts/check-secrets.py",
+    "build:portable": "sh scripts/build-portable.sh"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "2.11.0",
+    "@vue/reactivity": "^3.5.45",
+    "clsx": "https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz",
+    "framer-motion": "https://registry.npmjs.org/framer-motion/-/framer-motion-14.6.0.tgz",
+    "lucide-react": "https://registry.npmjs.org/lucide-react/-/lucide-react-1.61.0.tgz",
+    "motion-dom": "https://registry.npmjs.org/motion-dom/-/motion-dom-14.6.0.tgz",
+    "motion-utils": "https://registry.npmjs.org/motion-utils/-/motion-utils-14.6.0.tgz",
+    "react": "https://registry.npmjs.org/react/-/react-19.2.7.tgz",
+    "react-dom": "https://registry.npmjs.org/react-dom/-/react-dom-19.2.7.tgz",
+    "scheduler": "https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz",
+    "tailwind-merge": "https://registry.npmjs.org/tailwind-merge/-/tailwind-merge-3.7.0.tgz",
+    "tslib": "https://registry.npmjs.org/tslib/-/tslib-2.9.1.tgz"
+  },
+  "devDependencies": {
+    "@tailwindcss/node": "https://registry.npmjs.org/@tailwindcss/node/-/node-4.3.3.tgz",
+    "@tailwindcss/oxide": "https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.3.3.tgz",
+    "@tailwindcss/oxide-linux-x64-gnu": "https://registry.npmjs.org/@tailwindcss/oxide-linux-x64-gnu/-/oxide-linux-x64-gnu-4.3.3.tgz",
+    "@tailwindcss/vite": "https://registry.npmjs.org/@tailwindcss/vite/-/vite-4.3.3.tgz",
+    "@tauri-apps/cli": "2.11.2",
+    "@types/react": "https://registry.npmjs.org/@types/react/-/react-19.2.18.tgz",
+    "@types/react-dom": "https://registry.npmjs.org/@types/react-dom/-/react-dom-19.2.3.tgz",
+    "csstype": "https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz",
+    "playwright-core": "https://registry.npmjs.org/playwright-core/-/playwright-core-1.64.1.tgz",
+    "prettier": "https://registry.npmjs.org/prettier/-/prettier-3.9.10.tgz",
+    "tailwindcss": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.3.3.tgz",
+    "typescript": "5.9.3",
+    "vite": "7.3.5"
+  },
+  "overrides": {
+    "rollup": "4.61.1",
+    "esbuild": "0.27.7"
+  },
+  "license": "GPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/luisCoimbraDev/aula-s75-pro-linux.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luisCoimbraDev/aula-s75-pro-linux/issues"
+  },
+  "homepage": "https://github.com/luisCoimbraDev/aula-s75-pro-linux#readme"
+}

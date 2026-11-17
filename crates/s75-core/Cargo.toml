@@ -1,0 +1,12 @@
+[package]
+name = "s75-core"
+version = "0.2.0"
+edition = "2021"
+license = "GPL-3.0-only"
+repository = "https://github.com/luisCoimbraDev/aula-s75-pro-linux"
+
+[dependencies]
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.150"
+libc = "0.2.186"
+base64 = "0.22.1"
